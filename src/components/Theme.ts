@@ -1,10 +1,13 @@
 import { extendBaseTheme, theme as chakraTheme } from '@chakra-ui/react';
 
+chakraTheme.components
+
 const twygoTheme = extendBaseTheme({
     colors: {
         primary: "rgb(147, 73, 222)",
     },
     components: {
+        ...chakraTheme.components,
         Button: {
             baseStyle: {
                 backgroundColor: "primary",
@@ -13,14 +16,7 @@ const twygoTheme = extendBaseTheme({
                 paddingX: "24px",
                 paddingY: "16px",
             },
-        },
-        sizes: {
-            lg: {
-            fontSize: "lg",
-            height: "48px",
-            width: "auto",
-            },
-        },
+        }
     },
 });
 

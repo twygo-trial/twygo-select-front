@@ -20,7 +20,7 @@ const AppRoutes = () => {
       >
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/new-course" element={<CourseForm />} />
+          <Route path="/novo-curso" element={<CourseForm />} />
         </Routes>
       </Flex>
     </Router>
