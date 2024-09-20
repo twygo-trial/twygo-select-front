@@ -1,6 +1,8 @@
 # Twygo Select Front
 
-Este é o frontend do projeto [**Twygo Select**](https://github.com/twygo-trial/twygo-select), uma aplicação web de cursos responsiva que exibe uma lista de cursos e permite o cadastro, edição e exclusão de cursos. O projeto foi criado utilizando **React**, **Vite**, **TypeScript** e **Chakra UI**, com suporte para **Docker** e **testes unitários**.
+![image](https://github.com/user-attachments/assets/b9a1dc73-8b27-4dc0-82d0-2ed5602c7566)
+
+Este é o frontend do projeto [**Twygo Select**](https://github.com/twygo-trial/twygo-select), uma aplicação web de cursos responsiva que exibe uma lista de cursos e permite o cadastro, edição e exclusão de cursos. O projeto foi criado utilizando **React**, **Vite**, **TypeScript** e **Chakra UI**, com suporte para **Docker**.
 
 ## Tecnologias Utilizadas
 
