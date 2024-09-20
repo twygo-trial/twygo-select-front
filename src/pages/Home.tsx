@@ -1,5 +1,5 @@
-import { Box, Heading, Text, Stack, Button } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
+import { Box, Heading, Text, Stack, Button } from '@chakra-ui/react';
 
 const Home = () => {
   const courses = [
@@ -10,7 +10,14 @@ const Home = () => {
   const today = new Date();
 
   return (
-    <Box p={5}>
+    <Box
+      bg="white"
+      p={8}
+      rounded="md"
+      shadow="lg"
+      maxW="lg"
+      textAlign="center"
+    >
       <Heading mb={5}>Cursos Ativos</Heading>
       <Stack spacing={4}>
         {courses

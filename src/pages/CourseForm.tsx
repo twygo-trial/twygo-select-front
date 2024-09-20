@@ -1,4 +1,4 @@
-import { Box, Heading, FormControl, FormLabel, Input, Button } from '@chakra-ui/react';
+import { Box, Heading, FormControl, FormLabel, Input, Textarea, Button } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
 
 const CourseForm = () => {
@@ -12,7 +12,11 @@ const CourseForm = () => {
 
       <FormControl id="description" mb={4}>
         <FormLabel>Descrição</FormLabel>
-        <Input type="text" />
+        <Textarea
+          placeholder="Digite a descrição do curso"
+          resize="vertical"
+          height="100px"
+        />
       </FormControl>
 
       <FormControl id="endDate" mb={4}>
