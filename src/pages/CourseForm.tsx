@@ -88,7 +88,7 @@ const CourseForm = () => {
           />
         </FormControl>
 
-        <Button colorScheme="teal" type="submit" mr={4}>
+        <Button type="submit" mr={4}>
           Salvar
         </Button>
         <Button as={Link} to="/" colorScheme="gray">

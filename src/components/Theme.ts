@@ -4,7 +4,7 @@ chakraTheme.components
 
 const twygoTheme = extendBaseTheme({
     colors: {
-        primary: "rgb(147, 73, 222)",
+        primary: "rgb(147, 73, 222)"
     },
     components: {
         ...chakraTheme.components,

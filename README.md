@@ -55,3 +55,7 @@ twygo-select-front/
 ├── package.json         # Dependências e scripts
 └── README.md            # Documentação do projeto
 ```
+
+## Testes
+
+Você pode usar as [**fixtures de vídeos**](https://github.com/twygo-trial/twygo-select/tree/main/test/fixtures/files) para testar o projeto.
